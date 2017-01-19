@@ -1,63 +1,60 @@
 <div class="row row-offcanvas row-offcanvas-right">
 
-    <div class="col-xs-12 col-sm-8">
-      <p class="pull-right visible-xs">
-        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-      </p>
-      <div class="jumbotron text-right">
-        <h1>VoltAuto</h1>
-      <p>Купить Nissan Leaf в Днепре</p>
-      </div>
-      
- <div class="col-xs-12"> 
-   <label class="col-xs-5 col-md-3"> Модель
-        <select class="form-control" ng-model="modelFilter">
-          <option ng-repeat="car in cars| unique: 'Model'" value="{{car.Model}}">{{car.Model}}</option>
-        </select>
-    </label> 
-    <label class="col-xs-5 col-md-3"> Год 
-         <select class="form-control" ng-model="yearFilter">
-              <option value="2012">2012</option>
-              <option value="2013">2013</option>
-              <option value="2014">2014</option>
-        </select>
-    </label>
-    <label class="col-xs-5 col-md-3"> Цвет
-        <select class="form-control" ng-model="colorFilter">
-          <option ng-repeat="car in cars| unique: 'Color'" value="{{car.Color}}">{{car.Color}}</option>
-        </select>
-    </label>
-    <!-- <label class="col-xs-5 col-md-3">-->
-    <button ng-click="modelFilter=undefined; colorFilter=undefined; yearFilter=undefined" class="btn btn-default col-xs-5 col-md-3" style="margin-top:20px;">Cброс</button> 
-    <!-- </label>-->
-</div> <!--row xs 12-->
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="car in cars |filter:yearFilter |filter:colorFilter |filter:modelFilter">
-        <div class="preview-img text-center">
-            <img ng-src="pic/{{car.CarId}}-1.jpg" alt="{{car.model}}">
-               <span class="label" ng-init="destination = car.City==='USA' ? false: true"
-                                                  ng-class="{'label-success':destination, 'label-warning': !destination}">
+	<div class="col-xs-12 col-sm-8">
+		<p class="pull-right visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+		</p>
+		<div class="jumbotron text-right">
+			<h1>VoltAuto</h1>
+			<p>Купить Nissan Leaf в Днепре</p>
+		</div>
+
+		<div class="col-xs-12">
+			<label class="col-xs-5 col-md-3"> Модель
+				<select class="form-control" ng-model="modelFilter">
+					<option ng-repeat="car in cars| unique: 'Model'" value="{{car.Model}}">{{car.Model}}</option>
+				</select>
+			</label>
+			<label class="col-xs-5 col-md-3"> Год
+				<select class="form-control" ng-model="yearFilter">
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+				</select>
+			</label>
+			<label class="col-xs-5 col-md-3"> Цвет
+				<select class="form-control" ng-model="colorFilter">
+					<option ng-repeat="car in cars| unique: 'Color'" value="{{car.Color}}">{{car.Color}}</option>
+				</select>
+			</label>
+
+			<button ng-click="modelFilter=undefined; colorFilter=undefined; yearFilter=undefined" class="btn btn-default col-xs-5 col-md-3" style="margin-top:20px;">Cброс</button>
+
+		</div>
+		<!--row xs 12-->
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="car in cars |filter:yearFilter |filter:colorFilter |filter:modelFilter">
+				<div class="preview-img text-center">
+					<img ng-src="pic/{{car.CarId}}-1.jpg" alt="{{car.model}}">
+					<span class="label" ng-init="destination = car.City==='USA' ? false: true" ng-class="{'label-success':destination, 'label-warning': !destination}">
                    {{car.City}}
                </span>
-                <h2>{{car.Model}}</h2>
-                  <p>{{car.Year}}</p>
-                  <p>{{car.Price |currency:undefined:0 }}</p>
-          <p><a class="btn btn-default" href="#/cars/{{car.CarId}}" role="button">Подробнее &raquo;</a></p>
-          </div>
-        </div><!--/.col-sm-6.col-lg-4-->
-        
-      </div><!--/row-->
-    </div><!--/.col-xs-12.col-sm-9-->
+					<h2>{{car.Model}}</h2>
+					<p>{{car.Year}}</p>
+					<p>{{car.Price |currency:undefined:0 }}</p>
+					<p><a class="btn btn-default" href="#/cars/{{car.CarId}}" role="button">Подробнее &raquo;</a></p>
+				</div>
+			</div>
+			<!--/.col-sm-6.col-lg-4-->
 
-    <!--<div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar">
-      <h3 class="text-center">Фильтр </h3>
-      <div class="list-group">
-        <div class="list-group-item text-center">
-          <form>
-            <input type="text" class="form-control" placeholder="Search..." >
-          </form>
-        </div>
-        </div>-->
-     </div><!--/.sidebar-offcanvas-->
-  </div><!--/row-->
+		</div>
+		<!--/row-->
+	</div>
+	<!--/.col-xs-12.col-sm-9-->
+
+
+</div>
+<!--/.sidebar-offcanvas-->
+</div>
+<!--/row-->
