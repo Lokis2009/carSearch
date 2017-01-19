@@ -1,0 +1,21 @@
+ [
+
+{"img":"Pic/1N4AZ0CP5DC404490-1.jpg","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CP5DC404490","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"нет","Mileage":19.902,"Price":15980,"City":"USA"},
+{"img":"1N4AZ0CP5DC407485","Model":"Leaf","Color":"blue","Interio":"black","CarId":"1N4AZ0CP5DC407485","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"есть","Mileage":26.147,"Price":16450,"City":"USA"},
+{"img":"1N4AZ0CP5EC337049","Model":"Leaf","Color":"gray","Interio":"black","CarId":"1N4AZ0CP5EC337049","Year":2014,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage":19.71,"Price":14100,"City":"USA"},
+{"img":"1N4AZ0CP4DC400723","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CP4DC400723","Year":2013,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage":29.345,"Price":14300,"City":"06.06.16"},
+{"img":"1N4AZ0CP2DC404088","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CP2DC404088","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"есть","Mileage": 40.815,"Price":14550,"City":"USA"},
+{"img":"1N4AZ0CP0EC338819","Model":"Leaf","Color":"blue","Interio":"black","CarId":"1N4AZ0CP0EC338819","Year":2014,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage": 36.517,"Price":14800,"City":"USA"},
+{"img":"1N4AZ0CPXEC331585","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CPXEC331585","Year":2014,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage": 26.523,"Price":15750,"City":"USA"},
+{"img":"1N4AZ0CP5DC404456","Model":"Leaf","Color":"white","Interio":"white","CarId":"1N4AZ0CP5DC404456","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"есть","Mileage": 47.613,"Price":15300,"City":"USA"},
+{"img":"1N4AZ0CP2DC401322","Model":"Leaf","Color":"red","Interio":"black","CarId":"1N4AZ0CP2DC401322","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"нет","Mileage": 21.481,"Price":15200,"City":"USA"},
+{"img":"1N4AZ0CPXDC405022","Model":"Leaf","Color":"gray","Interio":"black","CarId":"1N4AZ0CPXDC405022","Year":2013,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage": 34.260,"Price":14450,"City":"USA"},
+{"img":"1N4AZ0CPXDC402122","Model":"Leaf","Color":"white","Interio":"black","CarId":"1N4AZ0CPXDC402122","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"нет","Mileage":28.913,"Price":15200,"City":"USA"},
+{"img":"1N4AZ0CP1DC423604","Model":"Leaf","Color":"blue","Interio":"black","CarId":"1N4AZ0CP1DC423604","Year":2013,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage": 8.087,"Price":15300,"City":"USA"},
+{"img":"1N4AZ0CP8DC424880","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CP8DC424880","Year":2013,"Type":"SV","Camera":"4","ChaDeMo":"нет","Mileage":23.891,"Price":16100,"City":"15.06.16"},
+{"img":"1N4AZ0CP9DC419879","Model":"Leaf","Color":"blue","Interio":"white","CarId":"1N4AZ0CP9DC419879","Year":2013,"Type":"SV","Camera":"нет","ChaDeMo":"нет","Mileage":38.714,"Price":15600,"City":"06.06.16"},
+{"img":"1N4AZ0CP9EC330699","Model":"Leaf","Color":"silver","Interio":"black","CarId":"1N4AZ0CP9EC330699","Year":2014,"Type":"S","Camera":"есть","ChaDeMo":"есть","Mileage": 23.988,"Price":15650,"City":"USA"},
+{"img":"1FADP3R43DL139845","Model":"Focus","Color":"Silver","Interio":"white","CarId":"1FADP3R43DL139845","Year":2012,"Type":"","Camera":"есть","ChaDeMo":"нет","Mileage":22.456,"Price":14900,"City":"USA"},
+{"img":"1FADP3R43DL139214","Model":"Focus","Color":"blue","Interio":"white","CarId":"1FADP3R43DL139214","Year":2013,"Type":"","Camera":"есть","ChaDeMo":"нет","Mileage":12.456,"Price":138000,"City":"USA"}
+
+				]
