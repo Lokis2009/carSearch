@@ -1,0 +1,41 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  background: url(../pic/header.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(255,255,255,.8);
+  color: rgba(24,36,28,.9);
+}
+
+.preview-img{
+  height: 200px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.preview-img img{
+  max-height: 200px;
+}
+
+.label {
+    display: block;
+    position: absolute;
+    top:10px;
+    left: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item { 
+  height: 500px;
+}
+
